@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}/src/source.cpp",
+                "-I${workspaceFolder}/include",
+                "-L${workspaceFolder}/lib",
+                "-lmylibrary",
+                "-o",
+                "${workspaceFolder}/bin/main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by the VS Code C++ extension."
+        }
+    ]
+}
