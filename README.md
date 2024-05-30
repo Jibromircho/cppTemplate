@@ -9,8 +9,6 @@ This is my template for C++ projects on VSCode.
 ## Directory Structure
 
 - `include/`: Header files
-- `lib/`: Static or dynamic libraries
 - `src/`: Source files
-- `bin/`: Output directory for binaries (create this directory if it does not exist)
-- `third_party/`: Third party files
+- `third_party/`: Third party files and libraries
 - `build/`: CMake build folder
