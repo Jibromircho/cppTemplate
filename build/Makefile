@@ -153,30 +153,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/mysource.o: src/mysource.cpp.o
-.PHONY : src/mysource.o
-
-# target to build an object file
-src/mysource.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o
-.PHONY : src/mysource.cpp.o
-
-src/mysource.i: src/mysource.cpp.i
-.PHONY : src/mysource.i
-
-# target to preprocess a source file
-src/mysource.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/src/mysource.cpp.i
-.PHONY : src/mysource.cpp.i
-
-src/mysource.s: src/mysource.cpp.s
-.PHONY : src/mysource.s
-
-# target to generate assembly for a file
-src/mysource.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/src/mysource.cpp.s
-.PHONY : src/mysource.cpp.s
-
 third_party/glad.o: third_party/glad.c.o
 .PHONY : third_party/glad.o
 
@@ -213,9 +189,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mysource.o"
-	@echo "... src/mysource.i"
-	@echo "... src/mysource.s"
 	@echo "... third_party/glad.o"
 	@echo "... third_party/glad.i"
 	@echo "... third_party/glad.s"

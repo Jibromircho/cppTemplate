@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/didi-desktop/Code/cppTemplate/third_party/glad.c" "CMakeFiles/OpenGLProject.dir/third_party/glad.c.o" "gcc" "CMakeFiles/OpenGLProject.dir/third_party/glad.c.o.d"
   "/home/didi-desktop/Code/cppTemplate/src/main.cpp" "CMakeFiles/OpenGLProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenGLProject.dir/src/main.cpp.o.d"
-  "/home/didi-desktop/Code/cppTemplate/src/mysource.cpp" "CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o" "gcc" "CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o.d"
   )
 
 # Targets to which this target links.

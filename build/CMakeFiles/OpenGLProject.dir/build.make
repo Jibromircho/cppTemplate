@@ -83,49 +83,33 @@ CMakeFiles/OpenGLProject.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLProject.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/didi-desktop/Code/cppTemplate/src/main.cpp -o CMakeFiles/OpenGLProject.dir/src/main.cpp.s
 
-CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o: CMakeFiles/OpenGLProject.dir/flags.make
-CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o: ../src/mysource.cpp
-CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o: CMakeFiles/OpenGLProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/didi-desktop/Code/cppTemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o -MF CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o.d -o CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o -c /home/didi-desktop/Code/cppTemplate/src/mysource.cpp
-
-CMakeFiles/OpenGLProject.dir/src/mysource.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLProject.dir/src/mysource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/didi-desktop/Code/cppTemplate/src/mysource.cpp > CMakeFiles/OpenGLProject.dir/src/mysource.cpp.i
-
-CMakeFiles/OpenGLProject.dir/src/mysource.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLProject.dir/src/mysource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/didi-desktop/Code/cppTemplate/src/mysource.cpp -o CMakeFiles/OpenGLProject.dir/src/mysource.cpp.s
-
 CMakeFiles/OpenGLProject.dir/third_party/glad.c.o: CMakeFiles/OpenGLProject.dir/flags.make
 CMakeFiles/OpenGLProject.dir/third_party/glad.c.o: ../third_party/glad.c
 CMakeFiles/OpenGLProject.dir/third_party/glad.c.o: CMakeFiles/OpenGLProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/didi-desktop/Code/cppTemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OpenGLProject.dir/third_party/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLProject.dir/third_party/glad.c.o -MF CMakeFiles/OpenGLProject.dir/third_party/glad.c.o.d -o CMakeFiles/OpenGLProject.dir/third_party/glad.c.o -c /home/didi-desktop/Code/cppTemplate/third_party/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/didi-desktop/Code/cppTemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLProject.dir/third_party/glad.c.o"
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLProject.dir/third_party/glad.c.o -MF CMakeFiles/OpenGLProject.dir/third_party/glad.c.o.d -o CMakeFiles/OpenGLProject.dir/third_party/glad.c.o -c /home/didi-desktop/Code/cppTemplate/third_party/glad.c
 
 CMakeFiles/OpenGLProject.dir/third_party/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenGLProject.dir/third_party/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/didi-desktop/Code/cppTemplate/third_party/glad.c > CMakeFiles/OpenGLProject.dir/third_party/glad.c.i
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/didi-desktop/Code/cppTemplate/third_party/glad.c > CMakeFiles/OpenGLProject.dir/third_party/glad.c.i
 
 CMakeFiles/OpenGLProject.dir/third_party/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGLProject.dir/third_party/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/didi-desktop/Code/cppTemplate/third_party/glad.c -o CMakeFiles/OpenGLProject.dir/third_party/glad.c.s
+	/usr/bin/gcc-12 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/didi-desktop/Code/cppTemplate/third_party/glad.c -o CMakeFiles/OpenGLProject.dir/third_party/glad.c.s
 
 # Object files for target OpenGLProject
 OpenGLProject_OBJECTS = \
 "CMakeFiles/OpenGLProject.dir/src/main.cpp.o" \
-"CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o" \
 "CMakeFiles/OpenGLProject.dir/third_party/glad.c.o"
 
 # External object files for target OpenGLProject
 OpenGLProject_EXTERNAL_OBJECTS =
 
 OpenGLProject: CMakeFiles/OpenGLProject.dir/src/main.cpp.o
-OpenGLProject: CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o
 OpenGLProject: CMakeFiles/OpenGLProject.dir/third_party/glad.c.o
 OpenGLProject: CMakeFiles/OpenGLProject.dir/build.make
 OpenGLProject: CMakeFiles/OpenGLProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/didi-desktop/Code/cppTemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenGLProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/didi-desktop/Code/cppTemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGLProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
