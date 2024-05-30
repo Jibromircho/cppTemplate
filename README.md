@@ -12,3 +12,5 @@ This is my template for C++ projects on VSCode.
 - `lib/`: Static or dynamic libraries
 - `src/`: Source files
 - `bin/`: Output directory for binaries (create this directory if it does not exist)
+- `third_party/`: Third party files
+- `build/`: CMake build folder if i figure out how to use cmake
