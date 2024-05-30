@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/didi-desktop/Code/cppTemplate/build",
+  "command": "/usr/bin/c++  -I/home/didi-desktop/Code/cppTemplate/include -g -o CMakeFiles/OpenGLProject.dir/src/main.cpp.o -c /home/didi-desktop/Code/cppTemplate/src/main.cpp",
+  "file": "/home/didi-desktop/Code/cppTemplate/src/main.cpp"
+},
+{
+  "directory": "/home/didi-desktop/Code/cppTemplate/build",
+  "command": "/usr/bin/c++  -I/home/didi-desktop/Code/cppTemplate/include -g -o CMakeFiles/OpenGLProject.dir/src/mysource.cpp.o -c /home/didi-desktop/Code/cppTemplate/src/mysource.cpp",
+  "file": "/home/didi-desktop/Code/cppTemplate/src/mysource.cpp"
+},
+{
+  "directory": "/home/didi-desktop/Code/cppTemplate/build",
+  "command": "/usr/bin/cc  -I/home/didi-desktop/Code/cppTemplate/include -g -o CMakeFiles/OpenGLProject.dir/third_party/glad.c.o -c /home/didi-desktop/Code/cppTemplate/third_party/glad.c",
+  "file": "/home/didi-desktop/Code/cppTemplate/third_party/glad.c"
+}
+]

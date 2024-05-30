@@ -2,16 +2,20 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "Build OpenGL Project",
             "type": "shell",
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
                 "${workspaceFolder}/src/main.cpp",
-                "${workspaceFolder}/src/source.cpp",
+                "${workspaceFolder}/src/mysource.cpp",
+                "${workspaceFolder}/third_party/glad.c",
                 "-I${workspaceFolder}/include",
-                "-L${workspaceFolder}/lib",
-                "-lmylibrary",
+                "-I${workspaceFolder}/include/glad",
+                "-I${workspaceFolder}/third_party",
+                "-lglfw",
+                "-ldl",
+                "-lGL",
                 "-o",
                 "${workspaceFolder}/bin/main"
             ],
@@ -24,3 +28,4 @@
         }
     ]
 }
+

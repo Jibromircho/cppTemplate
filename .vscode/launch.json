@@ -19,7 +19,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build",
+            "preLaunchTask": "Build OpenGL Project",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
