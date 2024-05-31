@@ -1,12 +1,14 @@
 #include <config.h>
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
+
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 int main() {
     // Initialize GLFW
+    glfwInit();
     if (!glfwInit()) {
-        std::cerr << "Failed to initialize GLFW" << std::endl;
+        std::cout << "Failed to initialize GLFW" << std::endl;
         return -1;
     }
 
@@ -17,8 +19,8 @@ int main() {
 
     // Create a windowed mode window and its OpenGL context
     GLFWwindow* window = glfwCreateWindow(1440, 900, "Learn OpenGL", NULL, NULL);
-    if (!window) {
-        std::cerr << "Failed to create GLFW window" << std::endl;
+    if (window == NULL) {
+        std::cout << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
         return -1;
     }
@@ -26,7 +28,7 @@ int main() {
 
     // Load all OpenGL function pointers
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-        std::cerr << "Failed to initialize GLAD" << std::endl;
+        std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
 
@@ -34,16 +36,15 @@ int main() {
     glViewport(0, 0, 1440, 900);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-    glClearColor(0.25f, 0.5f, 0.75f, 1.0f);
 
     // Render loop
     while (!glfwWindowShouldClose(window)) {
-        // Input
+        //input handling
         processInput(window);
 
-        // Render
+        //rendering here
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-
         // Swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();

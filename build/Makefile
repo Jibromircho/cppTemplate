@@ -129,6 +129,30 @@ OpenGLProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/build
 .PHONY : OpenGLProject/fast
 
+include/glad.o: include/glad.c.o
+.PHONY : include/glad.o
+
+# target to build an object file
+include/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/include/glad.c.o
+.PHONY : include/glad.c.o
+
+include/glad.i: include/glad.c.i
+.PHONY : include/glad.i
+
+# target to preprocess a source file
+include/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/include/glad.c.i
+.PHONY : include/glad.c.i
+
+include/glad.s: include/glad.c.s
+.PHONY : include/glad.s
+
+# target to generate assembly for a file
+include/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/include/glad.c.s
+.PHONY : include/glad.c.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,30 +177,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-third_party/glad.o: third_party/glad.c.o
-.PHONY : third_party/glad.o
-
-# target to build an object file
-third_party/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/third_party/glad.c.o
-.PHONY : third_party/glad.c.o
-
-third_party/glad.i: third_party/glad.c.i
-.PHONY : third_party/glad.i
-
-# target to preprocess a source file
-third_party/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/third_party/glad.c.i
-.PHONY : third_party/glad.c.i
-
-third_party/glad.s: third_party/glad.c.s
-.PHONY : third_party/glad.s
-
-# target to generate assembly for a file
-third_party/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLProject.dir/build.make CMakeFiles/OpenGLProject.dir/third_party/glad.c.s
-.PHONY : third_party/glad.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenGLProject"
+	@echo "... include/glad.o"
+	@echo "... include/glad.i"
+	@echo "... include/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... third_party/glad.o"
-	@echo "... third_party/glad.i"
-	@echo "... third_party/glad.s"
 .PHONY : help
 
 

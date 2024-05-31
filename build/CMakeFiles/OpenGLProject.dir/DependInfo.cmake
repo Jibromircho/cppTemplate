@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/didi-desktop/Code/cppTemplate/third_party/glad.c" "CMakeFiles/OpenGLProject.dir/third_party/glad.c.o" "gcc" "CMakeFiles/OpenGLProject.dir/third_party/glad.c.o.d"
+  "/home/didi-desktop/Code/cppTemplate/include/glad.c" "CMakeFiles/OpenGLProject.dir/include/glad.c.o" "gcc" "CMakeFiles/OpenGLProject.dir/include/glad.c.o.d"
   "/home/didi-desktop/Code/cppTemplate/src/main.cpp" "CMakeFiles/OpenGLProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenGLProject.dir/src/main.cpp.o.d"
   )
 
